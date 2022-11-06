@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #000d1d;
+  position: relative;
+}
+
+.body {
+  transition: 2s ease;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+.header {
+  text-align: center;
+  height: 3em;
+}
+
+.headerText {
+  padding-top: 1em;
+  color: #b3b3b3;
+}
+
+.helloPopUP {
+  position: fixed;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 500px;
+  background-color: #616a73;
+  border-radius: 30px;
+  color: #000811;
+  z-index: 2;
+}
+
+.none {
+  display: none;
+}
+
+.helloPopUP_content {
+  padding-top: 10px;
+}
+
+.helloPopUP_buttons {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.happyBirthday_text {
+  position: absolute;
+  color: #b3b3b3;
+  margin-left: 15vw;
+  margin-top: 65vh;
+  user-select: none;
+}
+
+.happy {
+  font-weight: bold;
+  letter-spacing: 6px;
+  font-size: 22px;
+  position: absolute;
+  left: 236px;
+}
+
+.birthday {
+  font-family: "Great Vibes", cursive;
+  font-size: 120px;
+  position: absolute;
+}
+
+.toYou {
+  position: absolute;
+  top: 120px;
+  left: 102px;
+  background-color: #616a73;
+  height: 37px;
+  width: 182px;
+  border-radius: 30px;
+}
+
+.toYou span {
+  position: absolute;
+  top: 8px;
+  left: 37px;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 10px;
+  vertical-align: middle;
+  color: #000811;
+}
+
+.airballons {
+  position: absolute;
+  right: 0;
+}
+
+.airballons img {
+  height: 725px;
+  z-index: -1;
+}
