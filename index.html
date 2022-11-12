@@ -31,16 +31,31 @@
       <footer class="footer"></footer>
       <div class="overlay"></div>
     </div>
-    <section class="helloPopUP">
-        <div class="helloPopUP_content">
-          Внимание!!! <br />
-          Только Лера может проходить этот квест!!!
+    <section class="helloPopUP popUP">
+      <div class="helloPopUP_content popUP_content">
+        Внимание!!! <br />
+        Только Лера может проходить этот квест!!!
+      </div>
+      <div class="helloPopUP_buttons popUP_buttons">
+        <button class="button_true">Я Лера</button>
+        <button class="button_false">Я не Лера</button>
+      </div>
+    </section>
+    <section class="EnterNamePopUP popUP none">
+      <div class="EnterNamePopUP_content popUP_content">Как тебя зовут?</div>
+        <input type="text" class="name" />
+        <div class="helloPopUP_buttons popUP_buttons">
+          <button class="submitName_btn">Submit</button>
+          <button class="back_btn">Back</button>
         </div>
-        <div class="helloPopUP_buttons">
-          <button class="button_true">Я Лера</button>
-          <button class="button_false">Я не Лера</button>
-        </div>
-      </section>
-      <script src="./src/js/main.js"></script>
+    </section>
+    <section class="goAway_popUP popUP none">
+      <div class="goAway_content popUP_content"></div>
+      <div class="helloPopUP_buttons popUP_buttons">
+        <button class="goAway_btn">Уйти растроенным</button>
+        <button class="BackToStart_btn back_btn">Вернуться на главную</button>
+      </div>
+    </section>
+    <script src="./src/js/main.js"></script>
   </body>
 </html>

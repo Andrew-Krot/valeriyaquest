@@ -28,13 +28,13 @@ body {
   color: #b3b3b3;
 }
 
-.helloPopUP {
+.popUP {
   position: fixed;
   text-align: center;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 100px;
+  min-height: 100px;
   width: 500px;
   background-color: #616a73;
   border-radius: 30px;
@@ -46,11 +46,11 @@ body {
   display: none;
 }
 
-.helloPopUP_content {
+.popUP_content {
   padding-top: 10px;
 }
 
-.helloPopUP_buttons {
+.popUP_buttons {
   padding-top: 10px;
   padding-bottom: 10px;
 }
