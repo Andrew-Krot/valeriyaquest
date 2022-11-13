@@ -58,7 +58,7 @@ submitNameBtn.onclick = () => {
         nonLeraBtn.innerHTML = 'Я уже не знаю, кто я'
       break;
     default:
-      goAway_content.innerHTML = "Проваливай отсюда " + nameValue.value + "!";
+      goAway_content.innerHTML = "Уходи отсюда " + nameValue.value + "!";
       break;
   }
 
